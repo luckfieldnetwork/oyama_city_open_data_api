@@ -1,0 +1,24 @@
+Options +ExecCGI
+AddHandler cgi-script .cgi
+DirectoryIndex index.cgi
+
+# index.cgi 以外の .py ファイルや設定ファイルへの直接アクセス・表示を遮断
+<FilesMatch "\.(py|txt|yml|yaml|md|log|db|sqlite3)$">
+    Require all denied
+</FilesMatch>
+<Files "index.cgi">
+    Require all granted
+</Files>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /v1.0/
+
+    # index.cgi 自身へのアクセスはそのまま処理
+    RewriteRule ^index\.cgi - [L]
+
+    # 存在しないパス、または main.py 等の .py ファイル直接指定をすべて index.cgi へ転送
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} \.py$
+    RewriteRule ^(.*)$ index.cgi/$1 [QSA,L]
+</IfModule>

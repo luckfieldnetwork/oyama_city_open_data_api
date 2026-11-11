@@ -1,0 +1,4288 @@
+{
+  "aed_locations": {
+    "dataset_info": "[41] AED設置場所",
+    "row_count": 176,
+    "column_count": 23,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "設置位置",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "小児対応設備の有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "agricultural_sewage_facilities": {
+    "dataset_info": "[40] 農業集落排水処理施設",
+    "row_count": 28,
+    "column_count": 27,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      },
+      {
+        "name": "施設名",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "bicycle_parking_lots": {
+    "dataset_info": "[43] 公共駐輪場一覧",
+    "row_count": 55,
+    "column_count": 22,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "屋内外",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "最大駐輪台数",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "calendar_events": {
+    "dataset_info": "[47] 投票所一覧",
+    "row_count": 52,
+    "column_count": 26,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "区分",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "childcare_facilities": {
+    "dataset_info": "[45] 子育て施設一覧",
+    "row_count": 124,
+    "column_count": 29,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "種別",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "アクセス方法",
+        "type": "TEXT"
+      },
+      {
+        "name": "駐車場情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "認可等年月日",
+        "type": "TEXT"
+      },
+      {
+        "name": "収容定員",
+        "type": "TEXT"
+      },
+      {
+        "name": "受入年齢",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "一時預かりの有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "community_care_recipients": {
+    "dataset_info": "[13] 要介護認定者数",
+    "row_count": 32,
+    "column_count": 9,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "区分",
+        "type": "TEXT"
+      },
+      {
+        "name": "第１号被保険者_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65歳以上75歳未満_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75歳以上_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "第２号被保険者_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "計_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "構成比",
+        "type": "TEXT"
+      },
+      {
+        "name": "増加率",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "cultural_properties": {
+    "dataset_info": "[17] 文化財一覧",
+    "row_count": 138,
+    "column_count": 35,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_英語",
+        "type": "TEXT"
+      },
+      {
+        "name": "文化財分類",
+        "type": "TEXT"
+      },
+      {
+        "name": "種類",
+        "type": "TEXT"
+      },
+      {
+        "name": "場所名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "員数_数",
+        "type": "TEXT"
+      },
+      {
+        "name": "員数_単位",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "所有者等",
+        "type": "TEXT"
+      },
+      {
+        "name": "文化財指定日",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像_ライセンス",
+        "type": "TEXT"
+      },
+      {
+        "name": "概要",
+        "type": "TEXT"
+      },
+      {
+        "name": "概要_英語",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明_英語",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "drainage_pump_stations": {
+    "dataset_info": "[39] 排水機場",
+    "row_count": 4,
+    "column_count": 10,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "行",
+        "type": "TEXT"
+      },
+      {
+        "name": "EPSGコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_33": {
+    "dataset_info": "データテーブル",
+    "row_count": 5,
+    "column_count": 7,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "分類",
+        "type": "TEXT"
+      },
+      {
+        "name": "地域名",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の平均額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の最高額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の最低額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "集計対象となった農地の筆数",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_39": {
+    "dataset_info": "データテーブル",
+    "row_count": 4,
+    "column_count": 10,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "行",
+        "type": "TEXT"
+      },
+      {
+        "name": "EPSGコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_40": {
+    "dataset_info": "データテーブル",
+    "row_count": 28,
+    "column_count": 27,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      },
+      {
+        "name": "施設名",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_43": {
+    "dataset_info": "データテーブル",
+    "row_count": 55,
+    "column_count": 22,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "屋内外",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "最大駐輪台数",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_44": {
+    "dataset_info": "データテーブル",
+    "row_count": 18,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_45": {
+    "dataset_info": "データテーブル",
+    "row_count": 124,
+    "column_count": 29,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "種別",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "アクセス方法",
+        "type": "TEXT"
+      },
+      {
+        "name": "駐車場情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "認可等年月日",
+        "type": "TEXT"
+      },
+      {
+        "name": "収容定員",
+        "type": "TEXT"
+      },
+      {
+        "name": "受入年齢",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "一時預かりの有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_46": {
+    "dataset_info": "データテーブル",
+    "row_count": 120,
+    "column_count": 26,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関の種類",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人の名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "時間外における対応",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療科目",
+        "type": "TEXT"
+      },
+      {
+        "name": "病床数",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "ds_51": {
+    "dataset_info": "データテーブル",
+    "row_count": 18,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "evacuation_sites": {
+    "dataset_info": "[58] 避難所一覧",
+    "row_count": 74,
+    "column_count": 27,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "標高",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_洪水",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_崖崩れ_土石流及び地滑り",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_高潮",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_地震",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_津波",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_大規模な火事",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_内水氾濫",
+        "type": "TEXT"
+      },
+      {
+        "name": "災害種別_火山現象",
+        "type": "TEXT"
+      },
+      {
+        "name": "指定避難所との重複",
+        "type": "TEXT"
+      },
+      {
+        "name": "想定収容人数",
+        "type": "TEXT"
+      },
+      {
+        "name": "対象となる町会_自治会",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "facility_care_recipients": {
+    "dataset_info": "[14] 介護相談先（高齢者サポートセンター）",
+    "row_count": 12,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "farmland_rent_rates": {
+    "dataset_info": "[33] 農地賃借料情報",
+    "row_count": 5,
+    "column_count": 7,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "分類",
+        "type": "TEXT"
+      },
+      {
+        "name": "地域名",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の平均額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の最高額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "令和7年1月から令和7年12月の間に締結された農地の賃貸借契約における10aあたりの賃借料水準の最低額_円_金額は算出結果を四捨五入して100円単位としている",
+        "type": "TEXT"
+      },
+      {
+        "name": "集計対象となった農地の筆数",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "farmland_stats": {
+    "dataset_info": "[3] 大規模小売店舗一覧",
+    "row_count": 53,
+    "column_count": 10,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "業態",
+        "type": "TEXT"
+      },
+      {
+        "name": "店舗名",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "TEL",
+        "type": "TEXT"
+      },
+      {
+        "name": "店舗面積",
+        "type": "TEXT"
+      },
+      {
+        "name": "開店年",
+        "type": "TEXT"
+      },
+      {
+        "name": "開店月",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "fire_dept_coop_businesses": {
+    "dataset_info": "[25] 小山市消防団協力事業所",
+    "row_count": 66,
+    "column_count": 10,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "小山市消防団協力事業所名",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "交付年",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "fire_dept_support_businesses": {
+    "dataset_info": "[26] 消防団サポート事業所",
+    "row_count": 162,
+    "column_count": 14,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "fire_hydrants": {
+    "dataset_info": "[28] 消防水利施設一覧",
+    "row_count": 3105,
+    "column_count": 12,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "種別",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "口径",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "fire_rescue_ambulance_stats": {
+    "dataset_info": "[21] 火災救助救急件数",
+    "row_count": 288,
+    "column_count": 32,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "年",
+        "type": "TEXT"
+      },
+      {
+        "name": "月",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "林野火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "車両火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "船舶火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "航空機火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "その他の火災件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "火災救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "交通救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "水難救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "風水害救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "機械救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物等救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "ガス_酸欠救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "破裂救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "その他救助件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "火災救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "自然災害救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "水難事故救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "交通事故救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "労働災害救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "運動競技救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "一般負傷救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "加害救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "自損行為救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "急病救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "転院搬送救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "医師搬送救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "資材搬送救急件数",
+        "type": "TEXT"
+      },
+      {
+        "name": "その他救急件数",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "fire_trucks": {
+    "dataset_info": "[24] 消防団車両一覧",
+    "row_count": 40,
+    "column_count": 13,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "消防団車両所属",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在",
+        "type": "TEXT"
+      },
+      {
+        "name": "消防団車両名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "消防団車両種別",
+        "type": "TEXT"
+      },
+      {
+        "name": "台数",
+        "type": "TEXT"
+      },
+      {
+        "name": "車両メーカー",
+        "type": "TEXT"
+      },
+      {
+        "name": "登録年",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "first_aid_stations": {
+    "dataset_info": "[27] 救急ステーション認定事業所一覧",
+    "row_count": 105,
+    "column_count": 8,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "column",
+        "type": "TEXT"
+      },
+      {
+        "name": "事業所名",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_連結表記",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物名等_方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "認定番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "提供可能時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "地区",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "home_care_recipients": {
+    "dataset_info": "[12] 地区別要介護認定者数",
+    "row_count": 34,
+    "column_count": 24,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "区分",
+        "type": "TEXT"
+      },
+      {
+        "name": "要支援１_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要支援２_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要介護１_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要介護２_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要介護３_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要介護４_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "要介護５_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "地区",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65歳以上人口_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "地区総人口_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "小山",
+        "type": "TEXT"
+      },
+      {
+        "name": "大谷",
+        "type": "TEXT"
+      },
+      {
+        "name": "間々田",
+        "type": "TEXT"
+      },
+      {
+        "name": "生井",
+        "type": "TEXT"
+      },
+      {
+        "name": "寒川",
+        "type": "TEXT"
+      },
+      {
+        "name": "豊田",
+        "type": "TEXT"
+      },
+      {
+        "name": "中",
+        "type": "TEXT"
+      },
+      {
+        "name": "穂積",
+        "type": "TEXT"
+      },
+      {
+        "name": "桑",
+        "type": "TEXT"
+      },
+      {
+        "name": "絹",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所地特例",
+        "type": "TEXT"
+      },
+      {
+        "name": "計",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "insured_category1": {
+    "dataset_info": "[10] 第1号被保険者数",
+    "row_count": 20,
+    "column_count": 8,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "元号",
+        "type": "TEXT"
+      },
+      {
+        "name": "年次",
+        "type": "TEXT"
+      },
+      {
+        "name": "年次_西暦",
+        "type": "TEXT"
+      },
+      {
+        "name": "第１号被保険者_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65歳以上75歳未満_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75歳以上_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "column",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "manufacturing_mining_stats": {
+    "dataset_info": "[19] イベント情報",
+    "row_count": 28,
+    "column_count": 17,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "イベント名",
+        "type": "TEXT"
+      },
+      {
+        "name": "言語コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "イベント名_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "主催者または連絡先",
+        "type": "TEXT"
+      },
+      {
+        "name": "場所名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "medical_institutions": {
+    "dataset_info": "[59] 医療機関一覧",
+    "row_count": 138,
+    "column_count": 27,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関の種類",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人の名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "時間外における対応",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療科目",
+        "type": "TEXT"
+      },
+      {
+        "name": "病床数",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "medical_institutions_v2": {
+    "dataset_info": "[46] 医療機関一覧",
+    "row_count": 120,
+    "column_count": 26,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関の種類",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人の名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "医療機関コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "時間外における対応",
+        "type": "TEXT"
+      },
+      {
+        "name": "診療科目",
+        "type": "TEXT"
+      },
+      {
+        "name": "病床数",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "nursery_schools": {
+    "dataset_info": "[7] 市内工業系組織",
+    "row_count": 8,
+    "column_count": 6,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "No",
+        "type": "TEXT"
+      },
+      {
+        "name": "協会名",
+        "type": "TEXT"
+      },
+      {
+        "name": "協会名カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先住所",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "nursing_care_benefits": {
+    "dataset_info": "[15] 介護事業者一覧",
+    "row_count": 548,
+    "column_count": 17,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "介護サービス事業所名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "介護サービス事業所名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "実施サービス",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "FAX番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人の名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "事業所番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "column",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "nursing_care_certified": {
+    "dataset_info": "[11] 保険給付費状況",
+    "row_count": 115,
+    "column_count": 6,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "サービス種類",
+        "type": "TEXT"
+      },
+      {
+        "name": "給付費_円",
+        "type": "TEXT"
+      },
+      {
+        "name": "サービス分類",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_1か月平均_円",
+        "type": "TEXT"
+      },
+      {
+        "name": "構成比",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "nursing_care_providers": {
+    "dataset_info": "[16] 小中義務教育学校通学区域情報",
+    "row_count": 1234,
+    "column_count": 34,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校所在地_都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校所在地_郡名",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校所在地_市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校所在地_行政区名",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校所在地_全国地方公共団体コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "学校名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "行政サービス拠点種別",
+        "type": "TEXT"
+      },
+      {
+        "name": "通学区域_登録年月日",
+        "type": "TEXT"
+      },
+      {
+        "name": "通学区域_廃止日",
+        "type": "TEXT"
+      },
+      {
+        "name": "通学区域の住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "ポリゴン_ファイル名",
+        "type": "TEXT"
+      },
+      {
+        "name": "情報の管理主体_法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "情報の管理主体_全国地方公共団体コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "情報の管理主体_名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "問い合わせ先_名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "問い合わせ先_電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "問い合わせ先_電話番号_内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "問い合わせ先_メールアドレス",
+        "type": "TEXT"
+      },
+      {
+        "name": "問い合わせ先_webフォーム",
+        "type": "TEXT"
+      },
+      {
+        "name": "データタイトル",
+        "type": "TEXT"
+      },
+      {
+        "name": "公開日",
+        "type": "TEXT"
+      },
+      {
+        "name": "最終更新日",
+        "type": "TEXT"
+      },
+      {
+        "name": "取扱の注意点",
+        "type": "TEXT"
+      },
+      {
+        "name": "文字コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "ライセンス",
+        "type": "TEXT"
+      },
+      {
+        "name": "座標参照系",
+        "type": "TEXT"
+      },
+      {
+        "name": "参照図",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "指定小学校",
+        "type": "TEXT"
+      },
+      {
+        "name": "指定中学校",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "park_facilities": {
+    "dataset_info": "[38] 公園施設一覧",
+    "row_count": 351,
+    "column_count": 14,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "全国地方公共団体コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "地方公共団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_連結表記",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物名等_方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "管理番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "公簿面積",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "police_fire_facilities": {
+    "dataset_info": "[50] 警察施設一覧",
+    "row_count": 15,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "population_by_age": {
+    "dataset_info": "[35] 大字町丁名別世帯数人口統計",
+    "row_count": 26061,
+    "column_count": 63,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "地区名",
+        "type": "TEXT"
+      },
+      {
+        "name": "地域名",
+        "type": "TEXT"
+      },
+      {
+        "name": "総人口",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "世帯数",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_0_4歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_0_4歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_5_9歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_5_9歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_10_14歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_10_14歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_15_19歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_15_19歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_20_24歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_20_24歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_25_29歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_25_29歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_30_34歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_30_34歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_35_39歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_35_39歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_40_44歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_40_44歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_45_49歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_45_49歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_50_54歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_50_54歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_55_59歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_55_59歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_60_64歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_60_64歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65_69歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65_69歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_70_74歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_70_74歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75_79歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75_79歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_80_84歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_80_84歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_85_89歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_85_89歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_90_94歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_90_94歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_95_99歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_95_99歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_100_104歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_100_104歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_105_109歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_105_109歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_110歳以上の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_110歳以上の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "年齢不詳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "年齢不詳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "基準年月日",
+        "type": "TEXT"
+      },
+      {
+        "name": "行政区コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "大字町丁名",
+        "type": "TEXT"
+      },
+      {
+        "name": "合計_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "男_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "女_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "世帯数_世帯",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "population_by_district": {
+    "dataset_info": "[34] 年齢別人口統計",
+    "row_count": 10128,
+    "column_count": 61,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "地区名",
+        "type": "TEXT"
+      },
+      {
+        "name": "地域名",
+        "type": "TEXT"
+      },
+      {
+        "name": "総人口",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_0_4歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_0_4歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_5_9歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_5_9歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_10_14歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_10_14歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_15_19歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_15_19歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_20_24歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_20_24歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_25_29歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_25_29歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_30_34歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_30_34歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_35_39歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_35_39歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_40_44歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_40_44歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_45_49歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_45_49歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_50_54歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_50_54歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_55_59歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_55_59歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_60_64歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_60_64歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65_69歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_65_69歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_70_74歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_70_74歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75_79歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_75_79歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_80_84歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_80_84歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_85_89歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_85_89歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_90_94歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_90_94歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_95_99歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_95_99歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_100_104歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_100_104歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_105_109歳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_105_109歳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_110歳以上の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "col_110歳以上の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "年齢不詳の男性",
+        "type": "TEXT"
+      },
+      {
+        "name": "年齢不詳の女性",
+        "type": "TEXT"
+      },
+      {
+        "name": "世帯数",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      },
+      {
+        "name": "基準年月日",
+        "type": "TEXT"
+      },
+      {
+        "name": "年齢",
+        "type": "TEXT"
+      },
+      {
+        "name": "男_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "女_人",
+        "type": "TEXT"
+      },
+      {
+        "name": "合計_人",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "public_housing": {
+    "dataset_info": "[44] 公営住宅一覧",
+    "row_count": 18,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "public_toilets": {
+    "dataset_info": "[67] 公衆トイレ一覧",
+    "row_count": 115,
+    "column_count": 33,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_英語",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "設置位置",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性トイレ総数",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性トイレ数_小便器",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性トイレ数_和式",
+        "type": "TEXT"
+      },
+      {
+        "name": "男性トイレ数_洋式",
+        "type": "TEXT"
+      },
+      {
+        "name": "女性トイレ総数",
+        "type": "TEXT"
+      },
+      {
+        "name": "女性トイレ数_和式",
+        "type": "TEXT"
+      },
+      {
+        "name": "女性トイレ数_洋式",
+        "type": "TEXT"
+      },
+      {
+        "name": "男女共用トイレ総数",
+        "type": "TEXT"
+      },
+      {
+        "name": "男女共用トイレ数_和式",
+        "type": "TEXT"
+      },
+      {
+        "name": "男女共用トイレ数_洋式",
+        "type": "TEXT"
+      },
+      {
+        "name": "多機能トイレ数",
+        "type": "TEXT"
+      },
+      {
+        "name": "車椅子使用者用トイレ有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "乳幼児用設備設置トイレ有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "オストメイト設置トイレ有無",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像_ライセンス",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "public_wifi": {
+    "dataset_info": "[36] 公衆無線LANアクセスポイント一覧",
+    "row_count": 13,
+    "column_count": 29,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "全国地方公共団体コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "地方公共団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_英語",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_全国地方公共団体コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "町字ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_連結表記",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_都道府県",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_市区町村",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_町字",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_番地以下",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物名等_方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "設置者",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先メールアドレス",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先FormURL",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先備考_その他_SNSなど",
+        "type": "TEXT"
+      },
+      {
+        "name": "郵便番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "SSID",
+        "type": "TEXT"
+      },
+      {
+        "name": "提供エリア",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "sightseeing_info": {
+    "dataset_info": "[20] 観光情報",
+    "row_count": 32,
+    "column_count": 24,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "地方公共団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_英字",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "所在地_連結表記",
+        "type": "TEXT"
+      },
+      {
+        "name": "建物名等_方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能日時特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "連絡先内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像",
+        "type": "TEXT"
+      },
+      {
+        "name": "画像_ライセンス",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "sys_datasets": {
+    "dataset_info": "システム管理テーブル",
+    "row_count": 42,
+    "column_count": 8,
+    "columns": [
+      {
+        "name": "dataset_code",
+        "type": "TEXT"
+      },
+      {
+        "name": "title",
+        "type": "TEXT"
+      },
+      {
+        "name": "table_name",
+        "type": "TEXT"
+      },
+      {
+        "name": "published_date",
+        "type": "TEXT"
+      },
+      {
+        "name": "contact",
+        "type": "TEXT"
+      },
+      {
+        "name": "creator",
+        "type": "TEXT"
+      },
+      {
+        "name": "last_checked",
+        "type": "TEXT"
+      },
+      {
+        "name": "file_count",
+        "type": "INTEGER"
+      }
+    ]
+  },
+  "sys_files": {
+    "dataset_info": "システム管理テーブル",
+    "row_count": 394,
+    "column_count": 9,
+    "columns": [
+      {
+        "name": "download_code",
+        "type": "TEXT"
+      },
+      {
+        "name": "dataset_code",
+        "type": "TEXT"
+      },
+      {
+        "name": "filename",
+        "type": "TEXT"
+      },
+      {
+        "name": "format",
+        "type": "TEXT"
+      },
+      {
+        "name": "file_size",
+        "type": "TEXT"
+      },
+      {
+        "name": "last_updated",
+        "type": "TEXT"
+      },
+      {
+        "name": "local_path",
+        "type": "TEXT"
+      },
+      {
+        "name": "is_downloaded",
+        "type": "INTEGER"
+      },
+      {
+        "name": "last_downloaded",
+        "type": "TEXT"
+      }
+    ]
+  },
+  "tourist_facilities": {
+    "dataset_info": "[51] 公共施設一覧",
+    "row_count": 18,
+    "column_count": 25,
+    "columns": [
+      {
+        "name": "_source_file",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県コード又は市区町村コード",
+        "type": "TEXT"
+      },
+      {
+        "name": "NO",
+        "type": "TEXT"
+      },
+      {
+        "name": "都道府県名",
+        "type": "TEXT"
+      },
+      {
+        "name": "市区町村名",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_カナ",
+        "type": "TEXT"
+      },
+      {
+        "name": "名称_通称",
+        "type": "TEXT"
+      },
+      {
+        "name": "POIコード",
+        "type": "TEXT"
+      },
+      {
+        "name": "住所",
+        "type": "TEXT"
+      },
+      {
+        "name": "方書",
+        "type": "TEXT"
+      },
+      {
+        "name": "緯度",
+        "type": "TEXT"
+      },
+      {
+        "name": "経度",
+        "type": "TEXT"
+      },
+      {
+        "name": "電話番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "内線番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "法人番号",
+        "type": "TEXT"
+      },
+      {
+        "name": "団体名",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能曜日",
+        "type": "TEXT"
+      },
+      {
+        "name": "開始時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "終了時間",
+        "type": "TEXT"
+      },
+      {
+        "name": "利用可能時間特記事項",
+        "type": "TEXT"
+      },
+      {
+        "name": "説明",
+        "type": "TEXT"
+      },
+      {
+        "name": "バリアフリー情報",
+        "type": "TEXT"
+      },
+      {
+        "name": "URL",
+        "type": "TEXT"
+      },
+      {
+        "name": "備考",
+        "type": "TEXT"
+      }
+    ]
+  }
+}
